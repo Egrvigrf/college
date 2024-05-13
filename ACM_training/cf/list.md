@@ -1,3 +1,4 @@
+2024-5-13
 - [x] [1200-Vlad and a Sum of Sum of Digits](https://codeforces.com/contest/1926/problem/C)
 - [x] [1200-Informatics in MAC](https://codeforces.com/problemset/problem/1935/B)
-- [ ] [1400-Card Game](https://codeforces.com/contest/1932/problem/D)
+- [x] [1400-Card Game](https://codeforces.com/contest/1932/problem/D)
