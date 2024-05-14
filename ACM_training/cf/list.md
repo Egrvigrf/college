@@ -5,7 +5,7 @@
 
 补题
 - [ ] [1300-Permutation Game](https://codeforces.com/contest/1968/problem/D)
-- [ ] [1600-Cells Arrangement](https://codeforces.com/contest/1968/problem/E)
+- [x] [1600-Cells Arrangement](https://codeforces.com/contest/1968/problem/E)
 - [ ] [1400-Reverse Card (Easy Version)](https://codeforces.com/contest/1972/problem/D1)
 - [ ] [1600-How Does the Rook Move?](https://codeforces.com/contest/1957/problem/C)
 - [ ] [1800-D. Missing Subsequence Sum](https://codeforces.com/contest/1966/problem/D)
