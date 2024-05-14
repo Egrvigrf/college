@@ -4,7 +4,7 @@
 - [x] [1400-Card Game](https://codeforces.com/contest/1932/problem/D)
 
 补题
-- [ ] [1300-Permutation Game](https://codeforces.com/contest/1968/problem/D)
+- [x] [1300-Permutation Game](https://codeforces.com/contest/1968/problem/D)
 - [x] [1600-Cells Arrangement](https://codeforces.com/contest/1968/problem/E)
 - [ ] [1400-Reverse Card (Easy Version)](https://codeforces.com/contest/1972/problem/D1)
 - [ ] [1600-How Does the Rook Move?](https://codeforces.com/contest/1957/problem/C)
