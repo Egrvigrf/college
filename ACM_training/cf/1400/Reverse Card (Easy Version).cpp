@@ -20,10 +20,10 @@ void fastIO()
     cin.tie(NULL);
     cout.tie(NULL);
 }
-void solve()
-{
-    int n, m;
-    cin >> n >> m;
+void solve()//如果gcd(a,b) = g , a = p*g, b = q*g.可证gcd(p,q) = 1(反证).
+{           //化简p = q(kg - 1),则根据gcd(p,q) = 1, kg - 1 >= 1,可知q = 1
+    int n, m;//根据q = 1原式子化简 a+b = kb*b,根据1 =< a <= n,可得(1+b)/b*b =< k <= (n+b) / b*b  
+    cin >> n >> m;//注意到当且仅当b = 1 时 k >= 2,所以ans最后减掉1
     ll ans = 0;
     for (int i = 1; i <= m; i++)
     {
