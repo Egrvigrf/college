@@ -9,5 +9,5 @@
 - [x] [1400-Reverse Card (Easy Version)](https://codeforces.com/contest/1972/problem/D1)
 - [ ] [1600-How Does the Rook Move?](https://codeforces.com/contest/1957/problem/C)
 - [ ] [1800-D. Missing Subsequence Sum](https://codeforces.com/contest/1966/problem/D)
-- [ ] [F-Circle Perimeter](https://codeforces.com/contest/1971/problem/F)
+- [x] [1600-F-Circle Perimeter](https://codeforces.com/contest/1971/problem/F)
 - [x] [1700-Minimizing the Sum](https://codeforces.com/contest/1969/problem/C)

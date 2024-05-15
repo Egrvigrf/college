@@ -19,38 +19,40 @@ void fastIO()
     cin.tie(NULL);
     cout.tie(NULL);
 }
-const int N = 2e3 + 52;
+const int N = 1e5 + 10;
 int ans[N];
+ll travel(int i)
+{
+    if (ans[i])
+        return ans[i];
+    int r2 = i * i;
+    int j = (int)(sqrt(r2 / 2));
+    ll cnt = (j + 1) * (j + 1);
+    int p = j;
+    int cnt2 = 0;
+    for (int k = j + 1; k < i; k++)
+    {
+        int nn = 0;
+        while (p * p + k * k >= r2)
+            p--;
+        cnt2 += (p + 1);
+    }
+    cnt2 *= 2;
+    ans[i] = (cnt + cnt2 - i + 1) * 4;
+    return ans[i];
+}
 void solve()
 {
     int r;
     cin >> r;
-    cout << ans[r + 1] - ans[r] << endl;
+    cout << travel(r+1) - travel(r) << endl;
 }
 signed main()
 {
     fastIO();
-    for (int i = 1; i <= N; i++)
-    {
-        int r = i;
-        int j = i - 1;
-        ll cnt = 0;
-        while (2 * j * j >= r * r)
-            j--;
-        cnt += (j + 1) * (j + 1);
-        for (int k = j + 1; k < r; k++)
-        {
-            int p = j;
-            while (p * p + k * k >= r * r)
-                p--;
-            cnt += (p+1) * 2;
-        }
-        cnt = cnt * 4 - (r - 1) * 4;
-        ans[i] = cnt;
-    }
     int t;
     cin >> t;
     while (t--)
-            solve();
+        solve();
     return 0;
 }
