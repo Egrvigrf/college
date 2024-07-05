@@ -1,0 +1,11 @@
+.h
+ManagementSystem.h
+ClassManagement.h
+ScoreManagement.h
+StudentManagement.h
+.cpp
+ManagementSystem.cpp
+ClassManagement.cpp
+ScoreManagement.cpp
+StudentManagement.cpp
+main.cpp
